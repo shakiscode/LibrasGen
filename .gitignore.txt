@@ -1,0 +1,22 @@
+# Ambiente Virtual e Caches
+venv/
+__pycache__/
+*.pyc
+
+# Arquivos de configuração de IDEs
+.idea/
+.vscode/
+
+# Arquivos de Sistema
+.DS_Store
+
+# Datasets - NUNCA envie dados brutos ou grandes para o GitHub
+dados_coletados/
+*.parquet
+*.csv
+*.npy
+
+# Modelos salvos - São muito grandes para o Git
+*.h5
+*.save
+*.tflite
